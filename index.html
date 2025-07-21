@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Car Vibe</title>
+
+  <!-- Swiper CSS CDN -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  
+  <!-- Font Awesome for social icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <!-- Google Fonts & Custom CSS -->
+  <link rel="stylesheet" href="style.css"> 
+ 
+</head>
+<body>
+
+  <main>
+    <div class="logo">CarVibe</div>
+
+    <div class="menu"><i class="fas fa-bars"></i></div>
+
+    <div class="social">
+      <div class="bar"></div>
+      <a href="#">Instagram</a>
+      <a href="#">Facebook</a>
+      <a href="#">Twitter</a>
+    </div>
+
+    <div class="swiper">
+      <div class="swiper-wrapper">
+
+        <!-- Slide 1 -->
+        <div class="swiper-slide">
+          <div class="content first">
+            <div class="title">
+              <div class="small">Feel the</div>
+              <div class="big"><span>S</span><span>P</span><span>E</span><span>E</span><span>D</span></div>
+            </div>
+            <div class="image">
+              <img src="img-1.png" alt="Car Image 1">
+            </div>
+            <div class="yellow"></div>
+            <div class="black"></div>
+            <div class="specs">
+              <span>Horsepower: 720hp</span>
+              <span>Top Speed: 340 km/h</span>
+              <button>Explore</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 2 -->
+        <div class="swiper-slide">
+          <div class="content">
+            <div class="title">
+              <div class="small">Unleash the</div>
+              <div class="big"><span>R</span><span>E</span><span>D</span></div>
+            </div>
+            <div class="image">
+              <img src="img-2.png" alt="Car Image 2">
+            </div>
+            <div class="red"></div>
+            <div class="black"></div>
+            <div class="specs red-c">
+              <span>Engine: V8 Twin Turbo</span>
+              <span>Acceleration: 0-100 in 2.9s</span>
+              <button>Drive Now</button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Slide 3 -->
+        <div class="swiper-slide">
+          <div class="content">
+            <div class="title">
+              <div class="small">Experience</div>
+              <div class="big"><span>F</span><span>U</span><span>T</span><span>U</span><span>R</span><span>E</span></div>
+            </div>
+            <div class="image">
+              <img src="img-3.png" alt="Car Image 3">
+            </div>
+            <div class="blue"></div>
+            <div class="black"></div>
+            <div class="specs blue-c">
+              <span>Battery: 120 kWh</span>
+              <span>Range: 600 km</span>
+              <button>Book Test Drive</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pagination -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </main>
+
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+  <!-- GSAP JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
